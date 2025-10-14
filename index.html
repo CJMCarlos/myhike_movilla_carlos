@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My BCIT Project</title>
+    <meta name="comp1800 template" content="My 1800 App">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Web Components for shared navbar and footer layout -->
+    <!-- <script type="module" src="/src/components/site-navbar.js"></script>
+    <script type="module" src="/src/components/site-footer.js"></script> -->
+</head>
+
+<body>
+    <!------------------------------>
+    <!-- Your HTML Layout go here -->
+    <!------------------------------>
+
+    <!-- our own navbar goes here -->
+
+    <!-- Main content goes here -->
+    <!-- This is the welcome on the landing page, with a login/signup button -->
+    <div class="container">
+        <div class=" px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="/images/image.jpg" alt="" width="72" height="57">
+            <h1 class="display-5 fw-bold">Welcome to ElmoHikes, <span id="name-goes-here">my friend!</span></h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Join a community of hikers looking for new places to explore.</p>
+                <h2>The view is better, together.</h2>
+                <div class="d-grid justify-content-sm-center">
+                    <!-- Make this button clickable, using onclick event listener -->
+                    <button onclick="window.location.href='login.html'" type="button"
+                        class="btn btn-info btn-lg">Login/Signup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- our own footer goes here -->
+
+    <!---------------------------------------------->
+    <!-- Your own JavaScript scripts go here      -->
+    <!---------------------------------------------->
+    <script type="module" src="/src/app.js"></script>
+
+</body>
+
+</html>
