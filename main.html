@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My BCIT Project</title>
+    <title>My BCIT Project2</title>
     <meta name="comp1800 template" content="My 1800 App" />
 
     <!-- Required meta tags -->
@@ -11,6 +11,7 @@
     <!-- Web Components for shared navbar and footer layout -->
     <script type="module" src="/src/components/site-navbar.js"></script>
     <script type="module" src="/src/components/site-footer.js"></script>
+    <script type="module" src="/src/main.js"></script>
   </head>
 
   <body>
@@ -22,6 +23,15 @@
     <site-navbar></site-navbar>
 
     <!-- Main content goes here -->
+    <div class="container-fluid bg-light text-dark p-5">
+      <div class="container bg-light p-5">
+        <h1 class="display-4">
+          I FOUND YOU <span id="name-goes-here">friend </span>
+        </h1>
+        <hr />
+        <p>Day of the quote: <span id="quote-goes-here"></span></p>
+      </div>
+    </div>
 
     <!-- our own footer goes here -->
     <site-footer></site-footer>
