@@ -16,7 +16,7 @@ class SiteNavbar extends HTMLElement {
             <!-- Navbar: single source of truth -->
             <nav class="navbar navbar-expand-lg navbar-light bg-info">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="/main.html">
                         <img src="/images/image.jpg" height="36">
                         Carlos Hikes!
                     </a>
