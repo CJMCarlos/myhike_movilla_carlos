@@ -11,6 +11,10 @@
     <!-- Web Components for shared navbar and footer layout -->
     <script type="module" src="/src/components/site-navbar.js"></script>
     <script type="module" src="/src/components/site-footer.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -40,6 +44,37 @@
         </button>
       </div>
     </main>
+
+    <div class="container">
+      <h2>Reviews:</h2>
+      <div id="details-go-here"></div>
+      <!-- Here is the container for cards with horizontal scrolling -->
+      <div class="card-container">
+        <div id="reviewCardGroup" class="row row-cols-auto">
+          <!-- Add your card templates here -->
+        </div>
+      </div>
+    </div>
+
+    <template id="reviewCardTemplate">
+      <div class="card bg-secondary">
+        <img class="card-img-top" />
+        <div class="card-body bg-light">
+          <h5 class="title">placeholder</h5>
+          <p class="star-rating"></p>
+          <p class="time">placeholder</p>
+          <p class="level">placeholder</p>
+          <p class="season">placeholder</p>
+          <p class="scrambled">placeholder</p>
+          <p class="flooded">placeholder</p>
+          <br />
+          <p class="description">
+            This card has supporting text below as a natural lead-in to
+            additional content.
+          </p>
+        </div>
+      </div>
+    </template>
     <!-- our own footer goes here -->
     <site-footer></site-footer>
 
