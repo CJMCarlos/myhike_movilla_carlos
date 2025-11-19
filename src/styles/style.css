@@ -6,6 +6,9 @@
 
 /* Style the individual cards as needed */
 .card {
-  width: 45%; /* Adjust the width as per your design, leaving a little space for margins */
-  margin: 2%; /* Add margin between cards */
+  height: 100%; /* Make cards fill the column */
+}
+
+.material-icons {
+  cursor: pointer;
 }
